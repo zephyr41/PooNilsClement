@@ -18,7 +18,7 @@ public class Credits extends Ressources implements CheckVictoryCondition {
     @Override
     public String toString(){
         return String.format("Cretids : %d // +%d Crdts/turn", this.getValue(), this.getProduction());
-        // Nb 1/
+        
     }
 }
 

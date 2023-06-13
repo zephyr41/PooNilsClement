@@ -19,6 +19,6 @@ public class Oxygen implements CheckVictoryCondition {
     @Override
     public String toString(){
         return String.format("%d%%", this.oxygenRate);
-        // Nb 1/
+        
     }
 }

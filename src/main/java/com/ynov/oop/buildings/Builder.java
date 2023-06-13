@@ -9,8 +9,7 @@ import com.ynov.oop.globalParameters.Planet;
 public class Builder {
 
     /*
-     * ========================== Methodes pour le fichiers builder
-     * =========================
+     * ========================== Methodes pour le fichiers builder =========================
      * 1. Vérifier qu'il y ai plus de Credits dans le warehouse que pour le cout du
      * batiment
      * 2. Vérifier qu'il y ai plus de Plantes dans le warehouse que pour le cout du
@@ -22,19 +21,13 @@ public class Builder {
      * /* methodes pour savoir si on peut crée un batiment
      */
 
-    // Entreport Nom var Cost Nom var
     public boolean canBuild(ResourceStockpile resourceStockpile, Cost constructionCost) {
         // si tu n'a pas assez de credits, de plantes, ou de plantes, tu
         return // retourne vrai ou faux avec une condition
        resourceStockpile.getCredits().getValue() >= constructionCost.credit
                 && resourceStockpile.getPlants().getValue() >= constructionCost.plant
                 && resourceStockpile.getSteels().getValue() >= constructionCost.steel;
-        /*
-         * pareil que :
-         * return true :
-         * }
-         * return false
-         */
+        
     }
 
     public City createCity(ResourceStockpile resourceStockpile) {
@@ -47,8 +40,8 @@ public class Builder {
         return null;
     }
 
-    private void useConstructionCost(ResourceStockpile resourceStockpile, Cost constructionCost) {
-        // ici on va chercher le nombre de fer qu'on a: use permet de décrémenter, elle
+    public void useConstructionCost(ResourceStockpile resourceStockpile, Cost constructionCost) {
+        // ici on va chercher le nombre de fer qu'on a : use permet de décrémenter, elle
         // prend en - le paramètre
         // prix du fer, c'est pareil pour tout
         resourceStockpile.getSteels().use(constructionCost.steel);

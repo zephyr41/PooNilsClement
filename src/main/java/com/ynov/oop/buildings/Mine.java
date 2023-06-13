@@ -17,3 +17,4 @@ public class Mine extends Buildings {
      }
    
 }
+    

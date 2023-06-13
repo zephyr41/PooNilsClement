@@ -6,7 +6,7 @@ public class Plants extends Ressources implements CheckVictoryCondition {
     
     public Plants() {
         super(0,  0);
-        //TODO Auto-generated constructor stub
+        
     }
 
     @Override
@@ -17,6 +17,6 @@ public class Plants extends Ressources implements CheckVictoryCondition {
     @Override
     public String toString(){
         return String.format("Plants : %d // +%d Plts/turn", this.getValue(), this.getProduction());
-        // Nb 1/
+        
     }
 }

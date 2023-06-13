@@ -14,7 +14,7 @@ Le but de ce projet été de crée un jeu en Programation Orienté Objet Il faut
 
 Quelle version de java avoir : openjdk version "20" 2023-03-21
 
-Où l'installer : install java ae2656_0_904
+Où l'installer : install java 20
 
 Quel version de Maven avoir :  : maven : 3.9.2
 
@@ -31,14 +31,13 @@ mvn clean install
 ```bash
 mvn exec:java -Dexec.mainClass=com.ynov.oop.Main
 ```
-```bash
 Au cas ou : 
-https://docs.google.com/presentation/d/1yx9eMJKsmnc1CEeFfk3vEc8Xt_jwa1QXAyH2F7ZFj98/edit#slide=id.g1c661sdk
+[https://docs.google.com/presentation/d/1yx9eMJKsmnc1CEeFfk3vEc8Xt_jwa1QXAyH2F7ZFj98/edit#slide=id.g1c661sdk](https://docs.google.com/presentation/d/1yx9eMJKsmnc1CEeFfk3vEc8Xt_jwa1QXAyH2F7ZFj98/edit#slide=id.g1c661sdk)
 
 
-```
+
 ## 🚀 A PROPOS DE NOUS
-Nous deux dévellopeur débutant dans la Programation Orienté Obejet en JAVA.
+Nous somme deux dévellopeur débutant dans la Programation Orienté Obejet en JAVA.
 
 ## Support
 

@@ -17,8 +17,8 @@ public class Terminal {
     public void playerInteraction(){
         int actionPlayer = -1;
         do{
-    /* Ici  */
-            System.out.println(this.game); // coresspond au to.Sring de gameLoop
+
+            System.out.println(this.game); // corespond au to.Sring de gameLoop
             System.out.println("\n \n \n Possible Action : ");
             System.out.println("1/ Build a City [1 Steel]");
             System.out.println("2/ Plant a Forest [3 Plants]");

@@ -32,7 +32,7 @@ public class Planet implements CheckVictoryCondition, HaveGlobalParameter {
      @Override
      public String toString(){
          return String.format(" Your Oxygen is : %s \n Your Temperature is : %s", this.oxygen, this.temperature);
-         // Nb 1/
+        
      }
  }
 

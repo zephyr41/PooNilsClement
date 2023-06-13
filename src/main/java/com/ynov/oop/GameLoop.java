@@ -37,7 +37,7 @@ public class GameLoop implements EndTurnAction, CheckVictoryCondition {
             case "city":
             City city = this.builder.createCity(warehouse);
             if (city != null){
-                System.out.println(String.format("\n\n ================ You create a %s", city.getName() + " =================== \n"));
+                System.out.println(String.format("\n\n ================ You create a %s =================== \n", city.getName()));
             }
             else if (city == null){
                 System.out.println("\n \n ============= You can't build a city  =========== \n \n");
@@ -47,7 +47,7 @@ public class GameLoop implements EndTurnAction, CheckVictoryCondition {
             case "forest":
             Forest forest = this.builder.createForest((warehouse), planet);
             if (forest != null){
-                System.out.println(String.format("\n\n ================ You create a %s", forest.getName() + " =================== \n"));
+                System.out.println(String.format("\n\n ================ You create a %s =================== \n", forest.getName()));
             }
             else if (forest == null){
                 System.out.println("\n \n ============= You can't build a forest  =========== \n \n");
@@ -57,7 +57,7 @@ public class GameLoop implements EndTurnAction, CheckVictoryCondition {
             case "mine":
             Mine mine =this.builder.createMine(warehouse);
             if (mine != null){
-                System.out.println(String.format("\n\n ================ You create a %s", mine.getName() + " =================== \n"));
+                System.out.println(String.format("\n\n ================ You create a %s =================== \n", mine.getName()));
             }
             else if (mine == null){
                 System.out.println("\n \n ============= You can't build a mine  =========== \n \n");
@@ -67,7 +67,7 @@ public class GameLoop implements EndTurnAction, CheckVictoryCondition {
             case "nuclearPlant":
             NuclearPlant nuclearPlant = this.builder.createNuclearPlant(warehouse, planet);
             if (nuclearPlant != null){
-                System.out.println(String.format("\n\n ================ You create a %s", nuclearPlant.getName() + " =================== \n"));
+                System.out.println(String.format("\n\n ================ You create a %s =================== \n", nuclearPlant.getName()));
             }
             else if (nuclearPlant == null){
                 System.out.println("\n \n ============= You can't build a nuclearPlant  =========== \n \n");
@@ -77,13 +77,12 @@ public class GameLoop implements EndTurnAction, CheckVictoryCondition {
             case "greenHouse":
             Greenhouse greenhouse = this.builder.createGreenhouse(warehouse);
             if (greenhouse != null){
-                System.out.println(String.format("\n\n ================ You create a %s", greenhouse.getName() + " =================== \n"));
+                System.out.println(String.format("\n\n ================ You create a %s =================== \n", greenhouse.getName() ));
             }
             else if (greenhouse == null){
                 System.out.println("\n \n ============= You can't build a greenhouse =========== \n \n");
             }
             break;
-            
             default: 
             System.out.println("Cannot building batiment");
             break;
