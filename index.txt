@@ -1,0 +1,29 @@
+paquet : ressource
+
+1)   Fer
+2)   Biomateriel
+3)   Crédit
+
+
+
+package : Batiment
+
+2)    Ville
+3)    Foret
+4)    Serre
+5)    Mine
+6)    Central Nucléaire
+
+
+package : Paramètre d'ambiance
+
+3)  Température  
+4)  Paramètre globaux
+        5(planète)
+
+
+package : 1) Jeu
+
+package : 2) Ouvrier
+
+package : 3) Entrepot
